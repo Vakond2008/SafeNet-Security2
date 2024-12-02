@@ -1,0 +1,105 @@
+/* Alap stílusok a weboldalhoz */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #0A1D37, #1F3A55); /* színátmenet a háttérhez */
+    color: #fff; /* Fehér szöveg */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Átlátszó fekete háttér a fejlécnek */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #50c0e9; /* világos kék szín a link hover effektusához */
+}
+
+/* "Rólunk" szakasz */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section#about {
+    background-color: rgba(0, 0, 0, 0.5); /* Félig átlátszó háttér a "Rólunk" szakasznak */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h2, h3 {
+    color: #50c0e9; /* Világos kék szín a címsorokhoz */
+}
+
+ul {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+/* Lábjegyzet */
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Átlátszó fekete lábléc */
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+
+/* Stílusok linkekhez a láblécben */
+footer a {
+    color: #50c0e9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Reszponzív dizájn */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SafeNet Security – A Digitális Védelmed</title>
+    <style>
+        /* Alap stílusok a weboldalhoz */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #0A1D37, #1F3A55); /* színátmenet a háttérhez */
+            color: #fff; /* Fehér szöveg */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Átlátszó fekete háttér a fejlécnek */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #fff;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #50c0e9; /* világos kék szín a link hover effektusához */
+        }
+
+        /* "Rólunk" szakasz */
+        main {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section#about {
+            background-color: rgba(0, 0, 0, 0.5); /* Félig átlátszó háttér a "Rólunk" szakasznak */
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        h2, h3 {
+            color: #50c0e9; /* Világos kék szín a címsorokhoz */
+        }
+
+        ul {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        /* Árak szakasz */
+        section#pricing {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .pricing-table {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+
+        .pricing-table .pricing-plan {
+            background-color: #1f3a55;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-table h4 {
+            color: #50c0e9;
+            font-size: 1.5rem;
+        }
+
+        .pricing-table .price {
+            font-size: 2rem;
+            color: #f1c40f;
+        }
+
+        .pricing-table .buy-button {
+            background-color: #50c0e9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .pricing-table .buy-button:hover {
+            background-color: #1f3a55;
+        }
+
+        /* Lábjegyzet */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8); /* Átlátszó fekete lábléc */
+            text-align: center;
+            padding: 15px 0;
+            color: #fff;
+        }
+
+        footer a {
+            color: #50c0e9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        /* Reszponzív dizájn */
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .pricing-table {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fejléc -->
+    <header>
+        <h1>SafeNet Security</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Főoldal</a></li>
+                <li><a href="#services">Szolgáltatások</a></li>
+                <li><a href="#pricing">Árak</a></li>
+                <li><a href="#about">Rólunk</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Fő tartalom -->
+    <main>
+        <!-- "Rólunk" szakasz -->
+        <section id="about">
+            <h2>Rólunk</h2>
+            <p>
+                A <strong>SafeNet Security</strong> 2012-ben alakult, és azóta elkötelezetten dolgozik azon, hogy a digitális világban mindenki számára biztonságos online környezetet biztosítson. A cég alapítói – tapasztalt kiberbiztonsági szakemberek, mérnökök és IT szakértők – úgy döntöttek, hogy egy olyan vállalatot hoznak létre, amely a legújabb technológiák felhasználásával nyújt megbízható, átfogó vírusírtó megoldásokat minden felhasználó számára.
+            </p>
+            <p>
+                Azóta a SafeNet Security világszerte több ezer magánszemélynek, valamint kis- és középvállalkozásoknak segített abban, hogy megvédjék eszközeiket, adataikat és rendszereiket a legújabb vírusok, trójai programok, kémprogramok és ransomware támadások ellen. Munkánk középpontjában mindig az áll, hogy ügyfeleink számára a legmagasabb szintű védelmet biztosítsuk a digitális fenyegetésekkel szemben.
+            </p>
+
+            <h3>Küldetésünk és Célunk</h3>
+            <p>
+                A SafeNet Security küldetése, hogy minden felhasználót megvédjen a kiberfenyegetésektől, miközben biztosítja, hogy a védelmi rendszerek a lehető legegyszerűbbek és felhasználóbarátabbak legyenek. Tudjuk, hogy az emberek egyre inkább online dolgoznak, vásárolnak és kommunikálnak, ezért úgy véljük, hogy mindenki számára hozzáférhetővé kell tenni a legújabb védelmi megoldásokat.
+            </p>
+            <p>
+                Cégünk célja, hogy a biztonságot és a magánélet védelmét a legjobb technológiai újításokkal ötvözzük, ezáltal egy teljesen integrált és megbízható védelmet biztosítva ügyfeleink számára. Különös figyelmet fordítunk arra, hogy termékeinket folyamatosan frissítsük és fejlesszük, így mindig lépést tartunk a kiberfenyegetések gyorsan változó világával.
+            </p>
+        </section>
+
+        <!-- Szolgáltatások szakasz -->
+        <section id="services">
+            <h2>Szolgáltatások</h2>
+            <ul class="services-list">
+                <li><strong>Vírusvédelem:</strong> A legújabb vírusok és kémprogramok ellen védelmet nyújtó szoftverek.</li>
+                <li><strong>Adatvédelem:</strong> Biztonságos adatok tárolása és titkosítása minden platformon.</li>
+                <li><strong>Ransomware védelem:</strong> Megvédi a rendszerét a zsarolóprogramokkal szemben.</li>
+                <li><strong>Internetbiztonság:</strong> Online védelem, amelyek biztosítják a magánélet védelmét a webes fenyegetésekkel szemben.</li>
+            </ul>
+
+            <h2>Elérhetőségek</h2>
+            <ul class="contact-info">
+                <li><strong>Telefonszám:</strong> +36 1 234 5678</li>
+                <li><strong>Email:</strong> <a href="mailto:support@safenetsecurity.com">support@safenetsecurity.com</a></li>
+                <li><strong>Cím:</strong> 1053 Budapest, Károly körút 12.</li>
+            </ul>
+        </section>
+
+        <!-- Árak szakasz -->
+        <section id="pricing">
+            <h2>Árak</h2>
+            <div class="pricing-table">
+                <!-- Alapcsomag -->
+                <div class="pricing-plan">
+                    <h4>Alapcsomag</h4>
+                    <p>1 eszköz, 1 év</p>
+                    <div class="price">9 990 Ft</div>
+                    <!-- PayPal gomb hozzáadása -->
+                    <form action="checkout.html" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="ALAPCSOMAG_BUTTON_ID">
+                        <button class="buy-button" type="submit">Vásárlás</button>
+                    </form>
+                </div>
+
+                <!-- Pro Csomag -->
+                <div class="pricing-plan">
+                    <h4>Pro Csomag</h4>
+                    <p>3 eszköz, 1 év</p>
+                    <div class="price">15 990 Ft</div>
+                    <!-- PayPal gomb hozzáadása -->
+                    <form action="checkout.html" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="PROCOSOMAG_BUTTON_ID">
+                        <button class="buy-button" type="submit">Vásárlás</button>
+                    </form>
+                </div>
+
+                <!-- VIP Csomag -->
+                <div class="pricing-plan">
+                    <h4>VIP Csomag</h4>
+                    <p>5 eszköz, 1 év</p>
+                    <div class="price">19 990 Ft</div>
+                    <!-- PayPal gomb hozzáadása -->
+                    <form action="checkout.html" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="VIPCSOMAG_BUTTON_ID">
+                        <button class="buy-button" type="submit">Vásárlás</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lábjegyzet -->
+    <footer>
+        <p>&copy; 2024 SafeNet Security. Minden jog fenntartva. <a href="#">Adatkezelési szabályzat</a> | <a href="#">Kapcsolat</a></p>
+    </footer>
+
+</body>
+</html>
